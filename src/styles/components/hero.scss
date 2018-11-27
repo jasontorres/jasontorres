@@ -1,0 +1,49 @@
+@import "../variables.scss";
+
+.hero {
+  background: white;
+  height: 100vh;
+  display: flex;
+
+  .hero-body {
+    display: flex;
+    align-items: center;
+  }
+
+  h1.title {
+    color: $primary;
+    font-size: 8em;
+    font-weight: bold;
+    font-family: $family-secondary;
+    text-transform: uppercase;
+  }
+
+  h2.subtitle {
+    font-size: $size-4;
+    color: $secondary;
+    font-family: $family-primary;
+  }
+}
+
+.hero-foot {
+  background: #13131309;
+  align-self: right;
+}
+
+.hero-foot .feature {
+  padding: 4em;
+
+  h3.title {
+    color: $primary;
+    margin: 0;
+    font-size: $size-medium;
+  }
+
+  &:hover {
+    background: $primary;
+
+    h3.title {
+      color: $white;
+    }
+  }
+}

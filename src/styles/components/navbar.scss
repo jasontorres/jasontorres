@@ -1,0 +1,17 @@
+@import "../styles/variables.scss";
+
+.navbar-brand {
+  padding: 1rem;
+  h2 {
+    display: block;
+    font-size: $size-medium;
+    font-family: $family-sans-serif;
+  }
+}
+
+.navbar .navbar-item {
+  color: $primary;
+  font-family: $family-sans-serif;
+  font-weight: $strong-weight;
+  padding: 1rem 1.5rem;
+}

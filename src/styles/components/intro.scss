@@ -1,0 +1,13 @@
+@import "../variables.scss";
+
+.intro {
+  background: $blue;
+  color: $white;
+  h4 {
+    font-weight: $weight-bold;
+    color: $white;
+  }
+  margin: 4rem;
+  padding: 4rem 2rem;
+  font-size: $size-large;
+}

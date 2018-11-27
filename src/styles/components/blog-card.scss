@@ -1,0 +1,21 @@
+@import "../styles/variables.scss";
+
+
+.blog-card {
+  border: 0;
+  color: $primary;
+  box-shadow: none;
+
+  .title {
+    font-family: $family-secondary;
+    font-weight: $strong-weight;
+    font-size: $size-large;
+  }
+  .subtitle {
+    color: $text-light;
+    font-size: $size-normal;
+  }
+  p {
+    color: $text;
+  }
+}

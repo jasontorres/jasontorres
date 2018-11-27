@@ -1,0 +1,12 @@
+@import "../variables.scss";
+
+.footer {
+  padding: 4rem 0;
+  background: $blue;
+  color: $white;
+  text-align: right;
+  h2 {
+    font-weight: $weight-bold;
+    color: $white;
+  }
+}

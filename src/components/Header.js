@@ -1,0 +1,11 @@
+import React from 'react'
+import Navbar from '../components/Navbar'
+import { Link } from 'gatsby'
+
+const Header = () => (
+  <section className="header">
+    <Navbar logoVisible={true} />
+  </section>
+)
+
+export default Header

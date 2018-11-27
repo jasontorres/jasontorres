@@ -1,0 +1,16 @@
+@import "../variables";
+
+.section-header {
+  margin: 4rem;
+  text-align: center;
+
+  h2 {
+    font-size: $size-large;
+    font-weight: $weight-bold;
+    color: $primary;
+  }
+
+  p {
+    color: $text-light;
+  }
+}
