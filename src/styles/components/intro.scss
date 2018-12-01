@@ -7,7 +7,10 @@
     font-weight: $weight-bold;
     color: $white;
   }
-  margin: 4rem;
   padding: 4rem 2rem;
+  margin: 4rem;
+  @include mobile() {
+    margin: 0;
+  }
   font-size: $size-large;
 }

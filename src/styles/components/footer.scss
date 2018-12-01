@@ -5,6 +5,11 @@
   background: $blue;
   color: $white;
   text-align: right;
+
+  @include mobile() {
+    text-align: center;
+  }
+
   h2 {
     font-weight: $weight-bold;
     color: $white;

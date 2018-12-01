@@ -3,6 +3,10 @@
 .portfolio {
   margin-top: $gap;
 
+  @include mobile() {
+    margin: 20px;
+  }
+
   p.title {
     font-size: $size-normal;
     font-weight: $weight-normal;

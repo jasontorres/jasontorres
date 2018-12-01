@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import HeroFoot from '../components/HeroFoot'
 
 const Hero = () => (
-  <section className="hero">
+  <section className="hero is-fullheight">
     <div className="hero-head">
       <Navbar logoVisible={false} />
     </div>

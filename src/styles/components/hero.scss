@@ -2,7 +2,6 @@
 
 .hero {
   background: white;
-  height: 100vh;
   display: flex;
 
   .hero-body {
@@ -13,6 +12,9 @@
   h1.title {
     color: $primary;
     font-size: 8em;
+    @include mobile() {
+      font-size: 4em;
+    }
     font-weight: bold;
     font-family: $family-secondary;
     text-transform: uppercase;
