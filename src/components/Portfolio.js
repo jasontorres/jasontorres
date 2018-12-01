@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Portfolio = () => (
-  <section className="portfolio">
+  <section className="portfolio" id="projects">
     <div className="container">
       <div className="section-header">
         <h2>Recent Works</h2>

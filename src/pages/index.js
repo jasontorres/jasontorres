@@ -15,7 +15,7 @@ export default class IndexPage extends React.Component {
         <Hero />
         <Intro />
         <Portfolio />
-        <section className="section">
+        <section className="section" id="notes">
           <div className="container">
             <div className="section-header">
               <h2>Recent Notes</h2>

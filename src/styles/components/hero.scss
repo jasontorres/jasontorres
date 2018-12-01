@@ -41,10 +41,14 @@
     font-size: $size-medium;
   }
 
+  a {
+    color: $primary;
+  }
+
   &:hover {
     background: $primary;
 
-    h3.title {
+    h3.title, a {
       color: $white;
     }
   }
