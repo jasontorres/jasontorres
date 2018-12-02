@@ -9,8 +9,13 @@
   }
 }
 
+.navbar-menu {
+  padding: 0;
+}
+
 .navbar .navbar-item {
-  color: $primary;
+  background: $bg-color;
+  color: $white;
   font-family: $family-sans-serif;
   font-weight: $strong-weight;
   padding: 1rem 1.5rem;

@@ -1,7 +1,7 @@
 @import "../variables.scss";
 
 .hero {
-  background: white;
+  background: $bg-color;
   display: flex;
 
   .hero-body {
@@ -10,7 +10,7 @@
   }
 
   h1.title {
-    color: $primary;
+    color: $hero-color;
     font-size: 8em;
     @include mobile() {
       font-size: 4em;
@@ -22,7 +22,7 @@
 
   h2.subtitle {
     font-size: $size-4;
-    color: $secondary;
+    color: $hero-color;
     font-family: $family-primary;
   }
 }
@@ -30,19 +30,29 @@
 .hero-foot {
   background: #13131309;
   align-self: right;
+
+  @include until($desktop) {
+    margin-top: $gap * 2;
+  }
 }
 
 .hero-foot .feature {
-  padding: 4em;
+  @include from($desktop) {
+    padding: 4em;
+  }
+
+  @include until($desktop) {
+    padding: $gap / 2;
+  }
 
   h3.title {
-    color: $primary;
+    color: lighten($blue, 10%);
     margin: 0;
     font-size: $size-medium;
   }
 
   a {
-    color: $primary;
+    color: lighten($primary, 50%);
   }
 
   &:hover {
