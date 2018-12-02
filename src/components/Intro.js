@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Intro = () => (
-  <section className="intro is-flexible">
+  <section id="about" className="intro is-flexible">
     <div className="intro-body has-text-center">
       <div className="columns">
         <div className="column is-offset-5 is-6">

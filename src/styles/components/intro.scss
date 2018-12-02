@@ -3,6 +3,10 @@
 .intro {
   background: $blue;
   color: $white;
+  &:hover {
+    background: darken($blue, 10%);
+  }
+  transition: all 200ms ease;
   h4 {
     font-weight: $weight-bold;
     color: $white;

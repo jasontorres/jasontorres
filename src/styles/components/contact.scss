@@ -1,0 +1,27 @@
+@import '../variables.scss';
+
+.contact-section {
+  .contact-me, .contact-team {
+    text-align: center;
+    background: $primary;
+    padding: 10rem 2rem;
+  }
+
+  .contact-team {
+    background: black;
+  }
+
+  .title {
+    color: #3e8ed2;
+  }
+
+  .subtitle {
+    color: white;
+  }
+
+  .title, .subtitle {
+    padding: 0 4rem;
+    font-weight: normal;
+  }
+
+}

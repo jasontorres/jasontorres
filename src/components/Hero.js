@@ -12,6 +12,14 @@ const Hero = () => (
         <h1 className="title">Jason Torres</h1>
         <h2 className="subtitle">
           I'm a technical founder. I build teams for startups and enterprises.
+          <br/>
+          12 years Ruby on Rails developer. 10 years as a CTO.
+
+          <br/>
+          <br/> 
+          I'm the CEO of Mashup Garage.
+          A 50+ member full stack development company
+          based in Manila, Philippines.
         </h2>
       </div>
     </div>
